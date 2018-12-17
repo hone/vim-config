@@ -10,3 +10,6 @@
 [submodule "pack/plugins/start/tagbar"]
 	path = pack/plugins/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/plugins/start/ayu-vim"]
+	path = pack/plugins/start/ayu-vim
+	url = https://github.com/ayu-theme/ayu-vim.git

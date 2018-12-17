@@ -6,7 +6,17 @@ set smartindent
 set nu
 
 " Colors
-set t_co=256
+" check $STY to ensure we aren't in screen,
+" since it doesn't support truecolors
+if (has("termguicolors")) && (empty($STY))
+	set termguicolors
+	let &t_8f = "\<Esc>[38:2:%lu:%lu:%lum"
+	let &t_8b = "\<Esc>[48:2:%lu:%lu:%lum"
+else
+	set t_Co=256
+endif
+let ayucolor="dark"
+colorscheme ayu
 
 " RustFmt
 let g:rustfmt_autosave = 1
