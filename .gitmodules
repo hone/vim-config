@@ -1,0 +1,12 @@
+[submodule "pack/plugins/start/rust.vim"]
+	path = pack/plugins/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
+[submodule "pack/plugins/start/ale"]
+	path = pack/plugins/start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "pack/plugins/start/vim-ruby"]
+	path = pack/plugins/start/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "pack/plugins/start/tagbar"]
+	path = pack/plugins/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
