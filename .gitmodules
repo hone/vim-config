@@ -13,3 +13,15 @@
 [submodule "pack/plugins/start/ayu-vim"]
 	path = pack/plugins/start/ayu-vim
 	url = https://github.com/ayu-theme/ayu-vim.git
+[submodule "pack/plugins/start/mustache"]
+	path = pack/plugins/start/mustache
+	url = https://github.com/mustache/vim-mustache-handlebars.git
+[submodule "pack/plugins/start/dart-vim-plugin"]
+	path = pack/plugins/start/dart-vim-plugin
+	url = https://github.com/dart-lang/dart-vim-plugin.git
+[submodule "pack/plugins/start/vim-toml"]
+	path = pack/plugins/start/vim-toml
+	url = https://github.com/cespare/vim-toml.git
+[submodule "pack/plugins/start/typescript"]
+	path = pack/plugins/start/typescript
+	url = https://github.com/leafgarland/typescript-vim.git
