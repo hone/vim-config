@@ -29,10 +29,27 @@ let g:ale_dart_dartfmt_executable = '$HOME/flutter/bin/cache/dart-sdk/bin/dartfm
 
 " Ale
 let g:ale_completion_enabled = 1
-let g:ale_linters = {'rust': ['rls']}
-let g:ale_fixers = {'rust': ['rustfmt']}
-let g:ale_rust_cargo_use_clippy = 1
-let g:ale_rust_rls_toolchain = 'stable'
+let g:ale_fix_on_save = 1
+let g:ale_linters = {
+			\   'javascript': ['eslint'],
+			\   'rust': ['rls'],
+			\   'go': ['gopls']
+			\}
+let g:ale_fixers = {
+			\   'css': ['prettier'],
+			\   'javascript': ['prettier'],
+			\   'rust': ['rustfmt'],
+			\}
+let g:ale_rust_rls_config = {
+      \ 'rust': {
+      \     'clippy_preference': 'on'
+      \   }
+      \ }
+
+" Go
+let g:go_version_warning = 0
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
 
 " TagBar
 nmap <F10> :TagbarToggle<CR>
