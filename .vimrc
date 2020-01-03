@@ -16,8 +16,8 @@ if (has("termguicolors")) && (empty($STY) || $STY=="")
 else
 	set t_Co=256
 endif
-let ayucolor="dark"
-colorscheme ayu
+set background=dark
+colorscheme gruvbox
 
 autocmd FileType ruby,dart,javascript,json,html.handlebars setlocal shiftwidth=2 tabstop=2 expandtab
 
