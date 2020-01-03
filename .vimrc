@@ -19,7 +19,7 @@ endif
 let ayucolor="dark"
 colorscheme ayu
 
-autocmd FileType dart,javascript,json,html.handlebars setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType ruby,dart,javascript,json,html.handlebars setlocal shiftwidth=2 tabstop=2 expandtab
 
 " RustFmt
 let g:rustfmt_autosave = 1
