@@ -34,7 +34,7 @@ let g:ale_completion_enabled = 1
 let g:ale_fix_on_save = 1
 let g:ale_linters = {
 			\   'javascript': ['eslint'],
-			\   'rust': ['rls'],
+			\   'rust': ['analyzer'],
 			\   'go': ['gopls']
 			\}
 let g:ale_fixers = {
@@ -52,6 +52,9 @@ let g:ale_rust_rls_config = {
 let g:go_version_warning = 0
 let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
+
+" :h ale-completion-completeopt-bug
+set completeopt+=noinsert
 
 " TagBar
 nmap <F10> :TagbarToggle<CR>
