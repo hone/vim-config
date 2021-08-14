@@ -21,7 +21,7 @@ let ayucolor="mirage" " for mirage version of theme
 "let ayucolor="dark"   " for dark version of theme
 colorscheme ayu
 
-autocmd FileType ruby,dart,javascript,json,html.handlebars setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType ruby,dart,javascript,json,html.handlebars,typescript setlocal shiftwidth=2 tabstop=2 expandtab
 
 " RustFmt
 let g:rustfmt_autosave = 1
