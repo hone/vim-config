@@ -40,6 +40,7 @@ let g:ale_linters = {
 let g:ale_fixers = {
 			\   'css': ['prettier'],
 			\   'javascript': ['prettier'],
+			\   'typescript': ['prettier'],
 			\   'rust': ['rustfmt'],
 			\}
 let g:ale_rust_rls_config = {
