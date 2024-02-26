@@ -4,6 +4,7 @@ syntax enable
 
 set smartindent
 set nu
+set shell=/bin/bash
 
 " Colors
 " check $STY to ensure we aren't in screen,
