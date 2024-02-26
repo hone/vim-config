@@ -34,3 +34,6 @@
 [submodule "pack/plugins/start/nushell-syntax-vim"]
 	path = pack/plugins/start/nushell-syntax-vim
 	url = https://github.com/elkasztano/nushell-syntax-vim
+[submodule "pack/plugins/start/codeium.vim"]
+	path = pack/plugins/start/codeium.vim
+	url = https://github.com/Exafunction/codeium.vim.git
