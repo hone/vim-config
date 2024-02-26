@@ -18,8 +18,9 @@ else
 	set t_Co=256
 endif
 "let ayucolor="light"  " for light version of theme
-let ayucolor="mirage" " for mirage version of theme
-"let ayucolor="dark"   " for dark version of theme
+"let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
+colorscheme elflord
 colorscheme ayu
 
 " Global Swap Files
